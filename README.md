@@ -11,10 +11,6 @@ Clean Your ROM (CYR) is a command line tool written in Ruby, that assists in org
 - Copy duplicate files (similar name and file path) to their own directory for later use.
 
 
-# Code Upkeep and Contributions
-
-I have limited resources to pay attention to this code base, but if you would like to fork and update the code on your own, all I ask is attribution for the original code.   You can also offer code fixes and feature updates, which I will try to review in a timely manner, but no promises.
-
 # Installing Clean Your ROM
 
 You will have to have Ruby installed on your machine for these scripts to work.
@@ -75,3 +71,7 @@ your needs:
 ```bash
 scp *.{n64,z64} pi@[retropie_ip_address]:/home/pi/RetroPie/roms/[system_short_name]
 ```
+
+# Code Upkeep and Contributions
+
+I have limited resources to pay attention to this code base, but if you would like to fork and update the code on your own, all I ask is attribution for the original code and that you use it in accordance with the license.   You can also create issues and offer code fixes & feature updates, which I will try to review in a timely manner, but no promises.
