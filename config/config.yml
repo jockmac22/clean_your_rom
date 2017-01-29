@@ -1,0 +1,228 @@
+companies:
+  atari:
+    name: "Atari"
+    devices:
+      atari_2600:
+        name: "Atari 2600"
+        extensions:
+          - ".a26"
+          - ".bin"
+          - ".rom"
+          - ".zip"
+          - ".gz"
+        folder: "atari2600"
+
+      atari_5200:
+        name: "Atari 5200"
+        extensions:
+          - ".a52"
+          - ".bas"
+          - ".car"
+          - ".xex"
+          - ".atr"
+          - ".xfd"
+          - ".dcm"
+          - ".atr.gz"
+          - ".xfd.gz"
+        folder: "atari5200"
+
+      atari_7800:
+        name: "Atari 7800"
+        extensions:
+          - ".a78"
+          - ".bin"
+        folder: "atari7800"
+
+      atari_jaguar:
+        name: "Atari Jaguar"
+        extensions:
+          - ".j64"
+          - ".jag"
+        folder: "atarijaguar"
+
+      atari_lynx:
+        name: "Atari Lynx"
+        extensions:
+          - ".lnx"
+        folder: "atarilynx"
+
+
+  coleco:
+    name: "Coleco"
+    devices:
+      coleco_vision:
+        name: "Colecovision"
+        extensions:
+          - ".bin"
+          - ".col"
+          - ".rom"
+          - ".zip"
+        folder: "coleco"
+
+
+  nintendo:
+    name: "Nintendo"
+    devices:
+      nintendo_enterainment_system:
+        name: "Nintendo Entertainment System (NES)"
+        extensions:
+          - ".nes"
+          - ".zip"
+          - ".smc"
+          - ".sfc"
+          - ".fig"
+          - ".swc"
+          - ".mgd"
+          - ".fds"
+        folder: "nes"
+
+      super_nintendo:
+        name: "Super Nintendo (SNES)"
+        extensions:
+          - ".sfc"
+          - ".smc"
+          - ".zip"
+          - ".fig"
+          - ".swc"
+        folder: "snes"
+
+      nintendo_64:
+        name: "Nintendo 64 (N64)"
+        extensions:
+          - ".n64"
+          - ".z64"
+          - ".v64"
+        folder: "n64"
+
+      wii:
+        name: "Wii"
+        extensions:
+          - ".iso"
+        folder: "wii"
+
+      virtual_boy:
+        name: "Virtual Boy"
+        extensions:
+          - ".vb"
+        folder: "virtualboy"
+
+      game_cube:
+        name: "Game Cube"
+        extensions:
+          - ".iso"
+        folder: "gc"
+
+      game_boy:
+        name: "Game Boy"
+        extensions:
+          - ".gb"
+        folder: "gb"
+
+      game_boy_color:
+        name: "Game Boy Color"
+        extensions:
+          - ".gbc"
+        folder: "gbc"
+
+      game_boy_advance:
+        name: "Game Boy Advance"
+        extensions:
+          - ".gba"
+        folder: "gba"
+
+      ds:
+        name: "DS"
+        extensions:
+          - ".nds"
+          - ".zip"
+        folder: "nds"
+
+
+  sega:
+    name: "Sega"
+    devices:
+      sega_master_system:
+        name: "Sega Master System"
+        extensions:
+          - ".sms"
+        folder: "sms"
+
+      megadrive:
+        name: "Megadrive/Genesis"
+        extensions:
+          - ".smd"
+          - ".bin"
+          - ".md"
+          - ".iso"
+        folder: "megadrive"
+
+      sega_32x:
+        name: "Sega 32x"
+        extensions:
+          - ".32x"
+          - ".smd"
+          - ".bin"
+          - ".md"
+        folder: "sega32x"
+
+      sega_cd:
+        name: "Sega CD"
+        extensions:
+          - ".cue"
+          - ".iso"
+        folder: "segacd"
+
+      saturn:
+        name: "Saturn"
+        extensions:
+          - ".bin"
+          - ".iso"
+          - ".mdf"
+        folder: "saturn"
+
+      dreamcast:
+        name: "Dreamcast"
+        extensions:
+          - ".cdi"
+          - ".gdi"
+        folder: "dreamcast"
+
+      game_gear:
+        name: "Game Gear"
+        extensions:
+          - ".gg"
+        folder: "gamegear"
+
+  sony:
+    name: "Sony"
+    devices:
+      play_station:
+        name: "Play Station (PSX)"
+        extensions:
+          - ".cud"
+          - ".cbn"
+          - ".img"
+          - ".iso"
+          - ".m3u"
+          - ".mdf"
+          - ".pbp"
+          - ".toc"
+          - ".z"
+          - ".znx"
+        folder: "psx"
+
+      sony_play_station_2:
+        name: "Play Station 2 (PS2)"
+        extensions:
+          - ".iso"
+          - ".img"
+          - ".bin"
+          - ".mdf"
+          - ".z"
+          - ".z2"
+          - ".bz2"
+          - ".dump"
+          - ".cso"
+          - ".ima"
+          - ".gz"
+        folder: "ps2"
