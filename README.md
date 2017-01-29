@@ -2,13 +2,24 @@
 
 Clean Your ROM (CYR) is a command line tool written in Ruby, that assists in organizing ROM files based on the standard naming conventions used in the ROM file names.  I built this script to assist me in finding ROMs for my RetroPie.  Use at your own risk, and please, don't steal things.
 
-### Clean Your ROM can:
+### With Clean Your ROM you can:
 
 - Create directory structures to organize your files and is compatible with your RetroPie.
 - Identify files by device, extension, build type and region
 - Copy appropriate files to a destination directory that matches the device they belong to.
 - Copy alternate files (unmatched) to their own directory for later use.
 - Copy duplicate files (similar name and file path) to their own directory for later use.
+
+
+# License
+
+This code is distributed under the MIT license.
+
+Copyright 2017 John S. MacGregor.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 
 # Installing Clean Your ROM
@@ -38,17 +49,6 @@ installed CYR from.  Run the following command:
 ```bash
 sudo ruby uninstall.rb
 ```
-
-
-# License
-
-This code is distributed under the MIT license.
-
-Copyright 2017 John S. MacGregor.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 
 # Helpful Things
