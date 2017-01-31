@@ -43,7 +43,7 @@ clean_your_rom
 
 You will have to have Ruby installed on your machine for these scripts to work.
 
-To uninstall Clean Your ROM, in a terminal, go to the cloned where you first
+To uninstall Clean Your ROM, in a terminal, go to the cloned directory where you first
 installed CYR from.  Run the following command:
 
 ```bash
